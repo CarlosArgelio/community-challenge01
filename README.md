@@ -1,4 +1,4 @@
-# Primera competencia de la comunidad
+# Primer reto de la comunidad
 
 Bienvenidos! aqui realizaremos el primero mini campeonato de la comunidad WEB
 Tu reto seran los siguientes:
