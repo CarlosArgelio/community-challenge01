@@ -9,6 +9,11 @@ Tu reto seran los siguientes:
 # Reglas
 
 1. Se vale usar IA
+2. Tienes que agregar un Favicon a la pagina
+3. Usar el Google Fonts **Open Sans**
+4. Colocar una animacion pequena en el Header (MUY MUY SIMPLE)
+5. En el footer colocar tu nombre
+6. Colocar un frase que te inspire a ti mismo
 
 Nunca paren de aprender!
     - Platzi
