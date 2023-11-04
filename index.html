@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="output.jpg">
     <link rel="stylesheet" href="styles.css">
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,6 +13,7 @@
 </head>
 <body>
     <header>
+      <link rel="shortcut icon" href="output.jpg">
         <nav>
             <p class="ptitle"><h2>¿Windows 10 o Windows 11?</h2></p>
             <a href="">Home</a>
@@ -21,14 +23,14 @@
     </header>
     <main>
         <section class="father">
-            <p><h4 class="pilar1">Windows 10 es un sistema operativo desarrollado por Microsoft que se lanzó en 2015. Es el sucesor de Windows 8.1 y tiene una interfaz de usuario similar a la de Windows 7. Windows 10 ha sido actualizado varias veces desde su lanzamiento inicial y ha mejorado en términos de seguridad, rendimiento y características. Algunas de las características notables de Windows 10 incluyen el menú Inicio rediseñado, la integración de Cortana, la compatibilidad con múltiples escritorios virtuales y la capacidad de ejecutar aplicaciones universales.</h4></p>
+            <p><h5 class="pilar1">Windows 10 es un sistema operativo desarrollado por Microsoft que se lanzó en 2015. Es el sucesor de Windows 8.1 y tiene una interfaz de usuario similar a la de Windows 7. Windows 10 ha sido actualizado varias veces desde su lanzamiento inicial y ha mejorado en términos de seguridad, rendimiento y características. Algunas de las características notables de Windows 10 incluyen el menú Inicio rediseñado, la integración de Cortana, la compatibilidad con múltiples escritorios virtuales y la capacidad de ejecutar aplicaciones universales.</h4></p>
 
             <p><h5 class="pilar2">Windows 11 es la versión más reciente del sistema operativo Windows, lanzada en octubre de 2021. Es el sucesor de Windows 10 y cuenta con una serie de mejoras importantes de seguridad, como la biometría avanzada, la protección avanzada contra amenazas, la protección contra el malware y el hardware de confianza. Windows 11 también tiene cambios importantes en el Shell de Windows influenciados por el cancelado Windows 10X, incluido un menú Inicio rediseñado, el reemplazo de sus iconos dinámicos (Live Tiles) con un panel separado llamado “Widgets” con noticias e intereses, la capacidad de crear conjuntos de ventanas en mosaico que se pueden minimizar y restaurar desde la barra de tareas como grupo, y las nuevas tecnologías de juego heredadas de Xbox Series X y Series S, como Auto HDR y DirectStorage en hardware compatible. Internet Explorer está completamente eliminado y reemplazado por el navegador Microsoft Edge; mientras parte de Microsoft Teams está integrado en el Shell de Windows en la barra de tareas. Microsoft también anunció planes para ofrecer soporte a las aplicaciones de Android que se ejecutarán en Windows 11, con soporte para Amazon Appstore y paquetes instalados manualmente.
             </h5></p>
         </section>
 
 
-        <!-- Carrusel experimental -->
+        <!-- Carrusel -->
         <div class="carousel">
             <button class="left" aria-label="Previous Image">👈</button>
             <div class="carousel__item">
@@ -40,7 +42,41 @@
             <button class="right" aria-label="Next Image">👉</button>
           </div>
         </main>
-      
+
+        <section class="mother">
+          <div class="pilarMother1">
+            <p><h5>Ventajas de Windows 10:</h5> 
+              Interfaz de usuario familiar y fácil de usar. <br>
+              Compatibilidad con una amplia gama de hardware y software.<br>
+              Actualizaciones regulares para mejorar la seguridad y el rendimiento.<br>
+              Integración de Cortana para asistencia por voz.<br>
+              Compatibilidad con múltiples escritorios virtuales.<br>
+              Capacidad para ejecutar aplicaciones universales.<br>
+              <h5>Desventajas de Windows 10:</h5>
+
+              Menú Inicio desordenado y poco intuitivo.<br>
+              Problemas de privacidad y seguridad.<br>
+              Actualizaciones forzadas que pueden interrumpir el trabajo.<br>
+              Problemas de compatibilidad con algunos programas y controladores.<br>
+              Problemas de rendimiento en algunos sistemas.</p>
+          </div>
+          <div class="pilarMother2">
+            <p><h5>Ventajas de Windows 11:</h5>
+              Diseño renovado y moderno.<br>
+              Mejoras significativas en la seguridad y la privacidad.<br>
+              Integración mejorada con Microsoft Teams.<br>
+              Compatibilidad con aplicaciones de Android.<br>
+              Mejoras en el rendimiento y la eficiencia energética.<br>
+              Nuevas funciones de juego heredadas de Xbox Series X y Series S.<br>
+              <h5>Desventajas de Windows 11:</h5>
+              
+              Requisitos de hardware más exigentes.<br>
+              Compatibilidad limitada con algunos programas y controladores.<br>
+              Algunas características solo están disponibles en dispositivos específicos.<br>
+              Puede haber problemas de estabilidad y compatibilidad con algunos sistemas.</p>
+          </div>
+        </section>
+
         <script>
           const carousel = document.querySelector('.carousel');
           const buttonLeft = document.querySelector('.left');
@@ -55,5 +91,11 @@
           });
         </script>
     </main>
+    <footer>
+      <p>Engelberth Rivas <br>
+      C.I.30.552.120 <br>
+      engelberthrivas14@gmail.com</p>
+      <img class="favicon" src="output.jpg" alt="100px">
+    </footer>
 </body>
 </html>
