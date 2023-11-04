@@ -144,3 +144,16 @@ a:hover{
   height: 100px;
   margin-left: 500px;
 }
+.border{
+  border: none;
+  background-color: inherit;
+  padding: 15px;
+  background-color: aqua;
+  text-decoration: none;
+  color: black;
+}
+button:hover{
+  color: white;
+  padding: 15px;
+  background: rgb(5, 57, 153);
+}
