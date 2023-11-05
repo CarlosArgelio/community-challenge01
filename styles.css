@@ -11,7 +11,8 @@ header{
     padding: 15px;
     background: #008bfd;
     display: grid;
-    place-content: center;
+    text-align: center;
+    /* place-content: center; */
 }
 .father{
     display: flex;
@@ -41,18 +42,6 @@ header{
   width: 60%;
   margin-left: 20px;
 }
-a{
-    padding: 15px;
-    background-color: aqua;
-    text-decoration: none;
-    color: black;
-}
-a:hover{
-  color: white;
-  padding: 15px;
-  background: rgb(5, 57, 153);
-}
-
 /* Carrusel */
 .carousel {
     display: flex;
@@ -152,8 +141,37 @@ a:hover{
   text-decoration: none;
   color: black;
 }
-button:hover{
+
+
+/* Notificacion */
+.notification {
+  background-color: rgb(31, 46, 114);
   color: white;
-  padding: 15px;
-  background: rgb(5, 57, 153);
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: rgb(255, 0, 0);
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 250%;
 }
