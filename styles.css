@@ -1,0 +1,177 @@
+body{
+    background-color: rgb(44, 109, 231);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+footer{
+  padding: 100px;
+  background-color: #0f5792;
+}
+header{
+    padding: 15px;
+    background: #008bfd;
+    display: grid;
+    text-align: center;
+    /* place-content: center; */
+}
+.father{
+    display: flex;
+}
+.pilar1{
+    padding: 20px;
+    background: #138ef3;
+    width: 40%;
+}
+.pilar2{
+    padding: 20px;
+    background: #138ef3;
+    width: 60%;
+    margin-left: 20px;
+}
+.mother{
+  display: flex;
+}
+.pilarMother1{
+  padding: 20px;
+  background: #138ef3;
+  width: 40%;
+}
+.pilarMother2{
+  padding: 20px;
+  background: #138ef3;
+  width: 60%;
+  margin-left: 20px;
+}
+/* Carrusel */
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .carousel__item {
+    flex-shrink: 0;
+    width: 100%;
+  }
+
+  .carousel__item img {
+    display: block;
+    width: 100%; body {
+        margin: 0;
+        padding: 0;
+      }
+  
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+      }
+  
+      main {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 10px;
+      }
+  
+      .carousel {
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+      }
+  
+      .carousel__item {
+        flex-shrink: 0;
+        width: 100%;
+      }
+  
+      .carousel__item img {
+        display: block;
+        width: 100%;
+      }
+  
+      .carousel__button {
+        background-color: rgba(0, 0, 0, 0.5);
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 2rem;
+        height: 70%;
+        position: absolute;
+        top: 30%;
+        transform: translateY(-50%);
+        width: 5%;
+      }
+   }
+   .right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(900%);
+    z-index: 10;
+    background: rgb(34, 94, 134);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+    .left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(900%);
+    z-index: 10;
+    background: rgb(34, 94, 134);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+.favicon{
+  width: 100px;
+  height: 100px;
+  margin-left: 500px;
+}
+.border{
+  border: none;
+  background-color: inherit;
+  padding: 15px;
+  background-color: aqua;
+  text-decoration: none;
+  color: black;
+}
+
+
+/* Notificacion */
+.notification {
+  background-color: rgb(31, 46, 114);
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: rgb(255, 0, 0);
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 250%;
+}
