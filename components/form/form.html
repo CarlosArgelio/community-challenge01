@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Registro de Pacientes</title>
+    <style>
+        /* Estilos para el formulario */
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario de Registro de Pacientes Hospitalarios</h1>
+    <form action="procesar_formulario.php" method="post">
+        <h2>Información Personal:</h2>
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+        </select>
+
+        <label for="estado_civil">Estado Civil:</label>
+        <input type="text" id="estado_civil" name="estado_civil" required>
+
+        <label for="direccion">Dirección:</label>
+        <textarea id="direccion" name="direccion" rows="3" required></textarea>
+
+        <label for="telefono">Número de Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="seguro_social">Número de Seguro Social:</label>
+        <input type="text" id="seguro_social" name="seguro_social" required>
+
+        <label for="pid">Número de Identificación del Paciente (PID):</label>
+        <input type="text" id="pid" name="pid" required>
+
+        <h2>Información Médica:</h2>
+        <label for="historial_medico">Historial Médico:</label>
+        <textarea id="historial_medico" name="historial_medico" rows="3"></textarea>
+
+        <label for="alergias">Alergias:</label>
+        <textarea id="alergias" name="alergias" rows="3"></textarea>
+
+        <label for="medicamentos">Medicamentos Recetados:</label>
+        <textarea id="medicamentos" name="medicamentos" rows="3"></textarea>
+
+        <label for="condiciones_medicas">Condiciones Médicas Crónicas:</label>
+        <textarea id="condiciones_medicas" name="condiciones_medicas" rows="3"></textarea>
+
+        <label for="cirugias_previas">Cirugías Previas:</label>
+        <textarea id="cirugias_previas" name="cirugias_previas" rows="3"></textarea>
+
+        <h2>Información de Contacto de Emergencia:</h2>
+        <label for="nombre_emergencia">Nombre:</label>
+        <input type="text" id="nombre_emergencia" name="nombre_emergencia" required>
+
+        <label for="relacion_emergencia">Relación con el Paciente:</label>
+        <input type="text" id="relacion_emergencia" name="relacion_emergencia" required>
+
+        <label for="telefono_emergencia">Número de Teléfono:</label>
+        <input type="tel" id="telefono_emergencia" name="telefono_emergencia" required>
+
+        <label for="correo_emergencia">Correo Electrónico:</label>
+        <input type="email" id="correo_emergencia" name="correo_emergencia">
+
+        <!-- Otros campos adicionales (trabajo, seguro, consentimiento) pueden agregarse según sea necesario -->
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
