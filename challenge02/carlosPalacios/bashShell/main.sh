@@ -15,3 +15,15 @@ if [ $age -lt 18 ]; then
 else
     echo "Welcome!"
 fi
+
+# Point 3 - Cicle for with list
+
+# My list
+numbers=()
+
+limit=$(shuf -i 10-20 -n 1)
+
+for (( i=0; i<$limit; i++ )); do
+    randomNumber=$(shuf -i 1-100 -n 1) # Generate one random number
+    numbers+=($randomNumber) # Add the number to the list
+done
