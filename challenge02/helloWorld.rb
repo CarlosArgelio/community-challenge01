@@ -24,7 +24,6 @@ i = 0
 displayBye = true
 
 while i < randomNum.length() do 
-   
     if randomNum[i] % 2 == 0
         puts "#{randomNum[i]} es un número par"
         exit!
