@@ -20,6 +20,7 @@ int main() {
         cout<<"Bienvenido! Eres mayor de edad"<<endl<<endl;
     } else {
         cout<<"Eres menor, no puedes seguir usando el programa"<<endl<<endl;
+        system("pause");
         return 0;
     }
 
@@ -47,6 +48,7 @@ int main() {
     if (sayBye) {
         cout<<"Bye bye";
     }
+    system("pause");
 
     return 0;
 }
